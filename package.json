@@ -1,0 +1,23 @@
+{
+  "name": "eslint-config-adsy",
+  "version": "0.0.0",
+  "description": "ESlint config used at Adfinis SyGroup",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adfinis-sygroup/eslint-config-adsy.git"
+  },
+  "keywords": ["eslint", "eslintconfig"],
+  "author": "Adfinis SyGroup AG",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/adfinis-sygroup/eslint-config-adsy/issues"
+  },
+  "homepage": "https://github.com/adfinis-sygroup/eslint-config-adsy#readme",
+  "peerDependencies": {
+    "eslint": ">= 5"
+  }
+}
