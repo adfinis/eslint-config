@@ -1,4 +1,6 @@
-model.exports = {
+module.exports = {
+  plugins: ["prettier"],
+  extends: ["eslint:recommended", "plugin:prettier/recommended"],
   rules: {
     // best practices
     "array-callback-return": 2,
