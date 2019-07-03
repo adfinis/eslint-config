@@ -2,15 +2,27 @@ module.exports = {
   plugins: ["prettier"],
   extends: ["eslint:recommended", "plugin:prettier/recommended"],
   rules: {
+    // possible errors
+    "no-await-in-loop": "error",
+
     // best practices
-    "array-callback-return": 2,
-    "dot-notation": 2,
-    eqeqeq: 2,
-    "no-alert": 2,
-    "no-else-return": 2,
-    "no-eval": 2,
-    "no-extend-native": 2,
-    "no-extra-bind": 2,
-    "no-floating-decimal": 2
+    "array-callback-return": "error",
+    "dot-notation": "error",
+    eqeqeq: "error",
+    "no-alert": "error",
+    "no-else-return": "error",
+    "no-eval": "error",
+    "no-extend-native": "error",
+    "no-extra-bind": "error",
+    "no-floating-decimal": "error",
+
+    // ES6
+    "no-var": "error",
+    "object-shorthand": "error",
+    "prefer-const": "error",
+    "prefer-destructuring": "error",
+    "prefer-rest-params": "error",
+    "prefer-spread": "error",
+    "prefer-template": "error"
   }
 };
