@@ -11,6 +11,8 @@ To install this package, simply run
 Then add the following to your `.eslintrc.js`
 
 ```js
+// .eslintrc.js
+
 module.exports = {
   extends: "@adfinis-sygroup/eslint-config"
 };
@@ -21,10 +23,18 @@ module.exports = {
 If you are using it in an ember app or addon you can use the config for
 ember:
 
-`yarn add -D eslint-plugin-ember`
+`yarn add -D babel-eslint eslint-plugin-ember eslint-plugin-node`
 
 ```js
+// .eslintrc.js
+
 module.exports = {
-  extends: "@adfinis-sygroup/eslint-config/ember"
+  extends: "@adfinis-sygroup/eslint-config/ember-app" // for an app
+};
+
+// or
+
+module.exports = {
+  extends: "@adfinis-sygroup/eslint-config/ember-addon" // for an addon
 };
 ```
