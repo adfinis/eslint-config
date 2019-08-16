@@ -11,6 +11,11 @@ module.exports = {
     "no-eval": 2,
     "no-extend-native": 2,
     "no-extra-bind": 2,
-    "no-floating-decimal": 2
+    "no-floating-decimal": 2,
+
+    // Comma
+    "comma-dangle": ["error", "always-multiline", "only-multiline"],
+    "comma-spacing": ["error", { "before": false, "after": true }],
+    "comma-style": ["error", "last"],
   }
 };
