@@ -14,7 +14,7 @@ module.exports = {
     "no-floating-decimal": 2,
 
     // Comma
-    "comma-dangle": ["error", "always-multiline", "only-multiline"],
+    "comma-dangle": ["error", "always-multiline"],
     "comma-spacing": ["error", { "before": false, "after": true }],
     "comma-style": ["error", "last"],
   }
