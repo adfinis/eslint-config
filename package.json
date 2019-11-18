@@ -26,7 +26,7 @@
   "homepage": "https://github.com/adfinis-sygroup/eslint-config#readme",
   "dependencies": {
     "babel-eslint": "^10.0.2",
-    "eslint-config-prettier": "^6.0.0",
+    "eslint-config-prettier": "^6.6.0",
     "prettier": "^1.18.2"
   },
   "peerDependencies": {
