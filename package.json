@@ -19,8 +19,8 @@
     "javascript",
     "styleguide"
   ],
-  "author": "Adfinis SyGroup AG",
-  "license": "MIT",
+  "author": "Adfinis SyGroup AG <info@adfinis-sygroup.ch>",
+  "license": "LGPL-3.0-or-later",
   "bugs": {
     "url": "https://github.com/adfinis-sygroup/eslint-config/issues"
   },
