@@ -1,19 +1,21 @@
-const emberOverrides = require("./ember").overrides[0];
+const [emberOverrides] = require("./ember").overrides;
 
 module.exports = {
   extends: ["./ember.js"],
   overrides: [
-    Object.assign(emberOverrides, {
-      files: emberOverrides.files.concat([
+    {
+      ...emberOverrides,
+      files: [
+        ...emberOverrides.files,
         "index.js",
         "tests/dummy/config/**/*.js"
-      ]),
+      ],
       excludedFiles: [
         "addon/**",
         "addon-test-support/**",
         "app/**",
         "tests/dummy/app/**"
       ]
-    })
+    }
   ]
 };
