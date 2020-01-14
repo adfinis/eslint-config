@@ -2,8 +2,12 @@ module.exports = {
   parserOptions: {
     ecmaVersion: 2018
   },
-  plugins: ["prettier"],
-  extends: ["eslint:recommended", "plugin:prettier/recommended"],
+  plugins: ["prettier", "import"],
+  extends: [
+    "eslint:recommended",
+    "plugin:prettier/recommended",
+    "plugin:import/recommended"
+  ],
   rules: {
     // possible errors
     "no-await-in-loop": "error",
@@ -26,6 +30,15 @@ module.exports = {
     "prefer-destructuring": "error",
     "prefer-rest-params": "error",
     "prefer-spread": "error",
-    "prefer-template": "error"
+    "prefer-template": "error",
+
+    // import
+    "import/order": [
+      "error",
+      {
+        "newlines-between": "always",
+        alphabetize: { order: "asc", caseInsensitive: true }
+      }
+    ]
   }
 };

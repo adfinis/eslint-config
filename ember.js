@@ -9,6 +9,7 @@ module.exports = {
   env: {
     browser: true
   },
+  rules: { "import/no-unresolved": "off" },
   overrides: [
     {
       files: [

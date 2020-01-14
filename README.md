@@ -6,7 +6,7 @@ This package contains our internally used eslint config.
 
 To install this package, simply run
 
-`yarn add -D @adfinis-sygroup/eslint-config eslint eslint-plugin-prettier`
+`yarn add -D @adfinis-sygroup/eslint-config eslint eslint-plugin-prettier eslint-plugin-import`
 
 Then add the following to your `.eslintrc.js`
 
@@ -23,7 +23,7 @@ module.exports = {
 If you are using it in an ember app or addon you can use the config for
 ember:
 
-`yarn add -D @adfinis-sygroup/eslint-config babel-eslint eslint-plugin-ember eslint-plugin-node`
+`yarn add -D eslint-plugin-ember eslint-plugin-node`
 
 ```js
 // .eslintrc.js
