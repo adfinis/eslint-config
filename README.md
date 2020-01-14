@@ -23,7 +23,7 @@ module.exports = {
 If you are using it in an ember app or addon you can use the config for
 ember:
 
-`yarn add -D babel-eslint eslint-plugin-ember eslint-plugin-node`
+`yarn add -D @adfinis-sygroup/eslint-config babel-eslint eslint-plugin-ember eslint-plugin-node`
 
 ```js
 // .eslintrc.js
