@@ -27,7 +27,10 @@ module.exports = {
     "no-var": "error",
     "object-shorthand": "error",
     "prefer-const": "error",
-    "prefer-destructuring": "error",
+    "prefer-destructuring": [
+      "error",
+      { AssignmentExpression: { array: false, object: false } }
+    ],
     "prefer-rest-params": "error",
     "prefer-spread": "error",
     "prefer-template": "error",
