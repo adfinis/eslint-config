@@ -1,8 +1,7 @@
 name: Release
 on:
   push:
-    branches:
-      - release
+    branches: [master]
 jobs:
   build:
     name: Release
@@ -10,8 +9,12 @@ jobs:
     steps:
       - uses: actions/checkout@v1
       - uses: actions/setup-node@v1
-      - run: yarn install
-      - env:
+
+      - name: Install dependencies
+        run: yarn install
+
+      - name: Release on NPM
+        env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
-        run: yarn release
+        run: yarn semantic-release
