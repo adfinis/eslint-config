@@ -42,6 +42,10 @@ module.exports = {
         "newlines-between": "always",
         alphabetize: { order: "asc", caseInsensitive: true }
       }
-    ]
+    ],
+
+    // tooling
+    "no-console": ["error", { allow: ["warn", "error"] }],
+    "no-debugger": "error"
   }
 };
