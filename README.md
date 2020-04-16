@@ -14,7 +14,7 @@ Then add the following to your `.eslintrc.js`
 // .eslintrc.js
 
 module.exports = {
-  extends: "@adfinis-sygroup/eslint-config"
+  extends: "@adfinis-sygroup/eslint-config",
 };
 ```
 
@@ -23,18 +23,18 @@ module.exports = {
 If you are using it in an ember app or addon you can use the config for
 ember:
 
-`yarn add -D eslint-plugin-ember eslint-plugin-node`
+`yarn add -D @adfinis-sygroup/eslint-config eslint eslint-plugin-prettier eslint-plugin-import eslint-plugin-ember eslint-plugin-node`
 
 ```js
 // .eslintrc.js
 
 module.exports = {
-  extends: "@adfinis-sygroup/eslint-config/ember-app" // for an app
+  extends: "@adfinis-sygroup/eslint-config/ember-app", // for an app
 };
 
 // or
 
 module.exports = {
-  extends: "@adfinis-sygroup/eslint-config/ember-addon" // for an addon
+  extends: "@adfinis-sygroup/eslint-config/ember-addon", // for an addon
 };
 ```
