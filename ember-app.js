@@ -1,3 +1,5 @@
+"use strict";
+
 const [emberOverrides] = require("./ember").overrides;
 
 module.exports = {
