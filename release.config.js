@@ -1,3 +1,3 @@
 module.export = {
-  extends: "@adfinis-sygroup/semantic-release-config"
+  extends: "@adfinis-sygroup/semantic-release-config",
 };

@@ -2,12 +2,12 @@ module.exports = {
   root: true,
   parser: "babel-eslint",
   parserOptions: {
-    sourceType: "module"
+    sourceType: "module",
   },
   plugins: ["ember"],
   extends: ["plugin:ember/recommended", "./index.js"],
   env: {
-    browser: true
+    browser: true,
   },
   rules: { "import/no-unresolved": "off" },
   overrides: [
@@ -18,17 +18,17 @@ module.exports = {
         "ember-cli-build.js",
         "testem.js",
         "blueprints/*/index.js",
-        "config/**/*.js"
+        "config/**/*.js",
       ],
       parserOptions: {
-        sourceType: "script"
+        sourceType: "script",
       },
       env: {
         browser: false,
-        node: true
+        node: true,
       },
       plugins: ["node"],
-      rules: require("eslint-plugin-node").configs.recommended.rules
-    }
-  ]
+      rules: require("eslint-plugin-node").configs.recommended.rules,
+    },
+  ],
 };

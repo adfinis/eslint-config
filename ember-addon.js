@@ -8,14 +8,14 @@ module.exports = {
       files: [
         ...emberOverrides.files,
         "index.js",
-        "tests/dummy/config/**/*.js"
+        "tests/dummy/config/**/*.js",
       ],
       excludedFiles: [
         "addon/**",
         "addon-test-support/**",
         "app/**",
-        "tests/dummy/app/**"
-      ]
-    }
-  ]
+        "tests/dummy/app/**",
+      ],
+    },
+  ],
 };

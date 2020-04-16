@@ -1,12 +1,12 @@
 module.exports = {
   parserOptions: {
-    ecmaVersion: 2018
+    ecmaVersion: 2018,
   },
   plugins: ["prettier", "import"],
   extends: [
     "eslint:recommended",
     "plugin:prettier/recommended",
-    "plugin:import/recommended"
+    "plugin:import/recommended",
   ],
   rules: {
     // possible errors
@@ -29,7 +29,7 @@ module.exports = {
     "prefer-const": "error",
     "prefer-destructuring": [
       "error",
-      { AssignmentExpression: { array: false, object: false } }
+      { AssignmentExpression: { array: false, object: false } },
     ],
     "prefer-rest-params": "error",
     "prefer-spread": "error",
@@ -40,12 +40,12 @@ module.exports = {
       "error",
       {
         "newlines-between": "always",
-        alphabetize: { order: "asc", caseInsensitive: true }
-      }
+        alphabetize: { order: "asc", caseInsensitive: true },
+      },
     ],
 
     // tooling
     "no-console": ["error", { allow: ["warn", "error"] }],
-    "no-debugger": "error"
-  }
+    "no-debugger": "error",
+  },
 };
