@@ -1,9 +1,9 @@
 name: Release
-on:
-  push:
-    branches: [master]
+
+on: workflow_dispatch
+
 jobs:
-  build:
+  release:
     name: Release
     runs-on: ubuntu-latest
     steps:
@@ -14,7 +14,7 @@ jobs:
         run: yarn install
 
       - name: Release on NPM
+        run: yarn semantic-release
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
-        run: yarn semantic-release
