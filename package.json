@@ -42,7 +42,7 @@
     "eslint-plugin-ember": "^9.6.0",
     "eslint-plugin-import": "^2.20.0",
     "eslint-plugin-node": "^11.0.0",
-    "eslint-plugin-prettier": "^3.3.0"
+    "eslint-plugin-prettier": "^3.3.1"
   },
   "release": {
     "extends": "@adfinis-sygroup/semantic-release-config"
