@@ -38,7 +38,7 @@
   },
   "devDependencies": {
     "@adfinis-sygroup/semantic-release-config": "^3.1.0",
-    "eslint": "^7.28.0",
+    "eslint": "^7.29.0",
     "eslint-plugin-ember": "^9.6.0",
     "eslint-plugin-import": "^2.23.4",
     "eslint-plugin-node": "^11.0.0",
