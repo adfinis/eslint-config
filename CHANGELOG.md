@@ -1,3 +1,10 @@
+## [1.4.2](https://github.com/adfinis-sygroup/eslint-config/compare/v1.4.1...v1.4.2) (2021-08-04)
+
+
+### Bug Fixes
+
+* ignore unresolved rule from import plugin ([3642836](https://github.com/adfinis-sygroup/eslint-config/commit/36428366d70885bb6b6c55221b34a5bcf7d61101))
+
 ## [1.4.1](https://github.com/adfinis-sygroup/eslint-config/compare/v1.4.0...v1.4.1) (2021-08-04)
 
 
