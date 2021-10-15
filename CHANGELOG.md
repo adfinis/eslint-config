@@ -1,3 +1,10 @@
+# [1.5.0](https://github.com/adfinis-sygroup/eslint-config/compare/v1.4.2...v1.5.0) (2021-10-15)
+
+
+### Features
+
+* **deps:** update ember blueprints and dependencies ([9a8a546](https://github.com/adfinis-sygroup/eslint-config/commit/9a8a546db3126af50c3d855844dd1a002ada9d92))
+
 ## [1.4.2](https://github.com/adfinis-sygroup/eslint-config/compare/v1.4.1...v1.4.2) (2021-08-04)
 
 
