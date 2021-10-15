@@ -17,8 +17,6 @@ yarn add -D @adfinis-sygroup/eslint-config \
 Then add the following to your `.eslintrc.js`
 
 ```js
-// .eslintrc.js
-
 module.exports = {
   extends: "@adfinis-sygroup/eslint-config",
 };
@@ -40,16 +38,18 @@ yarn add -D @adfinis-sygroup/eslint-config \
             eslint-plugin-qunit
 ```
 
+For an app replace your `.eslintrc.js` with this:
+
 ```js
-// .eslintrc.js
-
 module.exports = {
-  extends: "@adfinis-sygroup/eslint-config/ember-app", // for an app
+  extends: "@adfinis-sygroup/eslint-config/ember-app",
 };
+```
 
-// or
+Or for an addon replace your `.eslintrc.js` with this:
 
+```js
 module.exports = {
-  extends: "@adfinis-sygroup/eslint-config/ember-addon", // for an addon
+  extends: "@adfinis-sygroup/eslint-config/ember-addon",
 };
 ```
