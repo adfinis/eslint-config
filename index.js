@@ -1,6 +1,14 @@
 module.exports = {
   parserOptions: {
+    requireConfigFile: false,
     ecmaVersion: 2018,
+    babelOptions: {
+      // https://github.com/babel/ember-cli-babel/issues/366
+      plugins: [
+        "@babel/plugin-proposal-class-properties",
+        ["@babel/plugin-proposal-decorators", { decoratorsBeforeExport: true }],
+      ],
+    },
   },
   plugins: ["prettier", "import"],
   extends: [
