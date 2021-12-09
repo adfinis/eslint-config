@@ -22,6 +22,7 @@ module.exports = {
     "no-extend-native": "error",
     "no-extra-bind": "error",
     "no-floating-decimal": "error",
+    "one-var": ["error", "never"],
 
     // ES6
     "no-var": "error",
