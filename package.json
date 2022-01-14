@@ -35,7 +35,7 @@
     "prettier": ">= 2"
   },
   "devDependencies": {
-    "@adfinis-sygroup/semantic-release-config": "^3.2.0",
+    "@adfinis-sygroup/semantic-release-config": "^3.4.0",
     "babel-eslint": "^10.1.0",
     "eslint": "^7.32.0",
     "eslint-config-prettier": "^8.3.0",
