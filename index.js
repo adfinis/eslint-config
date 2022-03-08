@@ -23,6 +23,7 @@ module.exports = {
     "no-extra-bind": "error",
     "no-floating-decimal": "error",
     "one-var": ["error", "never"],
+    curly: ["error", "multi-line"],
 
     // ES6
     "no-var": "error",
