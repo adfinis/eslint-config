@@ -15,7 +15,6 @@ module.exports = {
     "eslint:recommended",
     "plugin:ember/recommended",
     "plugin:prettier/recommended",
-    "./index.js",
   ],
   env: {
     browser: true,
@@ -42,8 +41,7 @@ module.exports = {
         browser: false,
         node: true,
       },
-      plugins: ["node"],
-      extends: ["plugin:node/recommended"],
+      extends: ["plugin:n/recommended"],
     },
     {
       // test files
