@@ -1,3 +1,10 @@
+## [1.6.1](https://github.com/adfinis-sygroup/eslint-config/compare/v1.6.0...v1.6.1) (2023-03-28)
+
+
+### Bug Fixes
+
+* extend main config from ember app and addon config ([15bc6bf](https://github.com/adfinis-sygroup/eslint-config/commit/15bc6bfab4a1230a407756678f67e48648458430))
+
 # [1.6.0](https://github.com/adfinis-sygroup/eslint-config/compare/v1.5.0...v1.6.0) (2023-03-28)
 
 
