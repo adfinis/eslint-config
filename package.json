@@ -1,5 +1,5 @@
 {
-  "name": "@adfinis-sygroup/eslint-config",
+  "name": "@adfinis/eslint-config",
   "version": "1.6.1",
   "description": "Adfinis' ESlint config, following our coding guidelines",
   "main": "index.js",
@@ -9,21 +9,21 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/adfinis-sygroup/eslint-config.git"
+    "url": "git+https://github.com/adfinis/eslint-config.git"
   },
   "keywords": [
     "eslint",
     "eslintconfig",
-    "adfinis-sygroup",
+    "adfinis",
     "javascript",
     "styleguide"
   ],
   "author": "Adfinis AG <info@adfinis.com>",
   "license": "LGPL-3.0-or-later",
   "bugs": {
-    "url": "https://github.com/adfinis-sygroup/eslint-config/issues"
+    "url": "https://github.com/adfinis/eslint-config/issues"
   },
-  "homepage": "https://github.com/adfinis-sygroup/eslint-config#readme",
+  "homepage": "https://github.com/adfinis/eslint-config#readme",
   "peerDependencies": {
     "@babel/core": "^7.21.4",
     "@babel/eslint-parser": "^7.21.3",

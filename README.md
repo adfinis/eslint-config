@@ -1,4 +1,4 @@
-# @adfinis-sygroup/eslint-config
+# @adfinis/eslint-config
 
 This package contains our internally used eslint config.
 
@@ -7,7 +7,7 @@ This package contains our internally used eslint config.
 To install this package, simply run
 
 ```bash
-yarn add -D @adfinis-sygroup/eslint-config \
+yarn add -D @adfinis/eslint-config \
             eslint \
             eslint-config-prettier \
             eslint-plugin-prettier \
@@ -18,7 +18,7 @@ Then add the following to your `.eslintrc.js`
 
 ```js
 module.exports = {
-  extends: "@adfinis-sygroup/eslint-config",
+  extends: "@adfinis/eslint-config",
 };
 ```
 
@@ -28,7 +28,7 @@ If you are using it in an ember app or addon you can use the config for
 ember:
 
 ```bash
-yarn add -D @adfinis-sygroup/eslint-config \
+yarn add -D @adfinis/eslint-config \
             @babel/core \
             @babel/eslint-parser \
             eslint \
@@ -45,7 +45,7 @@ For an app replace your `.eslintrc.js` with this:
 
 ```js
 module.exports = {
-  extends: "@adfinis-sygroup/eslint-config/ember-app",
+  extends: "@adfinis/eslint-config/ember-app",
 };
 ```
 
@@ -53,7 +53,7 @@ Or for an addon replace your `.eslintrc.js` with this:
 
 ```js
 module.exports = {
-  extends: "@adfinis-sygroup/eslint-config/ember-addon",
+  extends: "@adfinis/eslint-config/ember-addon",
 };
 ```
 
