@@ -1,3 +1,23 @@
+# [2.0.0](https://github.com/adfinis/eslint-config/compare/v1.6.1...v2.0.0) (2023-04-25)
+
+
+### chore
+
+* **release:** rename package to @adfinis/eslint-config ([61e94ff](https://github.com/adfinis/eslint-config/commit/61e94ff23a696454326abbf6282a10a86534e946)), closes [#321](https://github.com/adfinis/eslint-config/issues/321)
+
+
+### Features
+
+* **ember:** update ember blueprints and other dependencies ([ac8bd9f](https://github.com/adfinis/eslint-config/commit/ac8bd9f9a92c2288f82033858f36b2be319c57f4))
+
+
+### BREAKING CHANGES
+
+* **release:** This package is now being released under the name
+`@adfinis/eslint-config` instead of `@adfinis-sygroup/eslint-config`.
+* **ember:** Require usage of `@babel/eslint-config` instead of
+`babel-eslint` and v8+ of `eslint`.
+
 ## [1.6.1](https://github.com/adfinis-sygroup/eslint-config/compare/v1.6.0...v1.6.1) (2023-03-28)
 
 
