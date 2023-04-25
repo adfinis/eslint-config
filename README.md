@@ -56,3 +56,9 @@ module.exports = {
   extends: "@adfinis-sygroup/eslint-config/ember-addon",
 };
 ```
+
+## Maintaining
+
+Since we want to keep the config in sync with Ember.js' config, we need to
+synchronize it from time to time. This can be done very easily by running
+`yarn update-blueprints` and verifying the changes.

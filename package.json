@@ -4,7 +4,8 @@
   "description": "Adfinis' ESlint config, following our coding guidelines",
   "main": "index.js",
   "scripts": {
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "update-blueprints": "node bin/update-blueprints.mjs"
   },
   "repository": {
     "type": "git",
@@ -46,6 +47,7 @@
     "eslint-plugin-n": "15.7.0",
     "eslint-plugin-prettier": "4.2.1",
     "eslint-plugin-qunit": "7.3.4",
+    "execa": "7.1.1",
     "prettier": "2.8.8"
   },
   "release": {
