@@ -29,8 +29,8 @@ ember:
 
 ```bash
 yarn add -D @adfinis/eslint-config \
-            @babel/core \
             @babel/eslint-parser \
+            @babel/plugin-proposal-decorators \
             eslint \
             eslint-config-prettier \
             eslint-plugin-prettier \
