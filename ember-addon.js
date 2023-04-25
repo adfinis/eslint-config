@@ -1,13 +1,15 @@
 "use strict";
-
 module.exports = {
   root: true,
-  parser: "babel-eslint",
+  parser: "@babel/eslint-parser",
   parserOptions: {
-    ecmaVersion: 2018,
+    ecmaVersion: "latest",
     sourceType: "module",
-    ecmaFeatures: {
-      legacyDecorators: true,
+    requireConfigFile: false,
+    babelOptions: {
+      plugins: [
+        ["@babel/plugin-proposal-decorators", { decoratorsBeforeExport: true }],
+      ],
     },
   },
   plugins: ["ember"],
@@ -17,16 +19,14 @@ module.exports = {
     "plugin:prettier/recommended",
     "./index.js",
   ],
-  env: {
-    browser: true,
-  },
+  env: { browser: true },
   rules: {},
   overrides: [
-    // node files
     {
       files: [
         "./.eslintrc.js",
         "./.prettierrc.js",
+        "./.stylelintrc.js",
         "./.template-lintrc.js",
         "./ember-cli-build.js",
         "./index.js",
@@ -35,17 +35,11 @@ module.exports = {
         "./config/**/*.js",
         "./tests/dummy/config/**/*.js",
       ],
-      parserOptions: {
-        sourceType: "script",
-      },
-      env: {
-        browser: false,
-        node: true,
-      },
+      parserOptions: { sourceType: "script" },
+      env: { browser: false, node: true },
       extends: ["plugin:n/recommended"],
     },
     {
-      // test files
       files: ["tests/**/*-test.{js,ts}"],
       extends: ["plugin:qunit/recommended"],
     },
