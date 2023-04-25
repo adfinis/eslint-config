@@ -1,0 +1,38 @@
+name: Update blueprints
+
+on:
+  workflow_dispatch:
+  schedule:
+    # Every week on friday 12:00
+    - cron: "0 12 * * 5"
+
+jobs:
+  release:
+    name: Update blueprints
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 18
+          cache: "yarn"
+
+      - name: Install dependencies
+        run: yarn install
+
+      - name: Update blueprints
+        run: yarn update-blueprints
+
+      - name: Create PR
+        uses: peter-evans/create-pull-request@v5
+        with:
+          body: |-
+            **Can I merge this PR without manual changes?**
+            - [ ] Change does not require additional dependencies -> if so, adjust dependencies and readme **and mark as breaking change**
+            - [ ] Change does not drop any dependencies -> if so, adjust dependencies and readme
+          branch: "update-blueprints"
+          commit-message: "feat(ember): update ember blueprints"
+          delete-branch: true
+          labels: "update-blueprints"
+          title: "feat(ember): update ember blueprints"
+          token: ${{ secrets.GH_TOKEN }}
