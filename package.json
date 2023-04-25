@@ -24,27 +24,29 @@
   },
   "homepage": "https://github.com/adfinis-sygroup/eslint-config#readme",
   "peerDependencies": {
-    "babel-eslint": ">= 10",
-    "eslint": ">= 7 < 8",
-    "eslint-config-prettier": ">= 8",
-    "eslint-plugin-ember": ">= 11",
-    "eslint-plugin-import": ">= 2",
-    "eslint-plugin-n": ">= 15",
-    "eslint-plugin-prettier": ">= 4",
-    "eslint-plugin-qunit": ">= 7",
-    "prettier": ">= 2"
-  },
-  "devDependencies": {
-    "@adfinis-sygroup/semantic-release-config": "^3.4.0",
-    "babel-eslint": "^10.1.0",
-    "eslint": "^7.32.0",
+    "@babel/core": "^7.21.4",
+    "@babel/eslint-parser": "^7.21.3",
+    "eslint": "^8.39.0",
     "eslint-config-prettier": "^8.8.0",
-    "eslint-plugin-ember": "^11.4.8",
+    "eslint-plugin-ember": "^11.5.2",
     "eslint-plugin-import": "^2.27.5",
-    "eslint-plugin-n": "^15.6.1",
+    "eslint-plugin-n": "^15.7.0",
     "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-qunit": "^7.3.4",
-    "prettier": "^2.8.7"
+    "prettier": "^2.8.8"
+  },
+  "devDependencies": {
+    "@adfinis-sygroup/semantic-release-config": "3.4.0",
+    "@babel/core": "7.21.4",
+    "@babel/eslint-parser": "7.21.3",
+    "eslint": "8.39.0",
+    "eslint-config-prettier": "8.8.0",
+    "eslint-plugin-ember": "11.5.2",
+    "eslint-plugin-import": "2.27.5",
+    "eslint-plugin-n": "15.7.0",
+    "eslint-plugin-prettier": "4.2.1",
+    "eslint-plugin-qunit": "7.3.4",
+    "prettier": "2.8.8"
   },
   "release": {
     "extends": "@adfinis-sygroup/semantic-release-config"

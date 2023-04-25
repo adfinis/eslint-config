@@ -29,13 +29,16 @@ ember:
 
 ```bash
 yarn add -D @adfinis-sygroup/eslint-config \
+            @babel/core \
+            @babel/eslint-parser \
             eslint \
             eslint-config-prettier \
             eslint-plugin-prettier \
             eslint-plugin-import \
             eslint-plugin-ember \
-            eslint-plugin-node \
-            eslint-plugin-qunit
+            eslint-plugin-n \
+            eslint-plugin-qunit \
+            prettier
 ```
 
 For an app replace your `.eslintrc.js` with this:
