@@ -62,3 +62,8 @@ module.exports = {
 Since we want to keep the config in sync with Ember.js' config, we need to
 synchronize it from time to time. This can be done very easily by running
 `yarn update-blueprints` and verifying the changes.
+
+There is also a [Github Action](https://github.com/adfinis/eslint-config/actions/workflows/update-blueprints.yml)
+that runs this script automatically every week at Friday 12:00 and opens a
+[PR](https://github.com/adfinis/eslint-config/pulls?q=is%3Aopen+is%3Apr+label%3Aupdate-blueprints)
+if there is a change.
