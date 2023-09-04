@@ -38,6 +38,7 @@ module.exports = {
     "prefer-template": "error",
 
     // import
+    "import/no-duplicates": "error",
     "import/no-unresolved": "off",
     "import/order": [
       "error",
