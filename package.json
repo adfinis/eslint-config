@@ -28,7 +28,7 @@
     "@adfinis/semantic-release-config": "4.0.0",
     "@babel/core": "7.22.5",
     "@babel/eslint-parser": "7.22.5",
-    "eslint": "8.42.0",
+    "eslint": "8.54.0",
     "eslint-config-prettier": "8.9.0",
     "eslint-plugin-import": "2.27.5",
     "eslint-plugin-prettier": "4.2.1",
