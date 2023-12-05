@@ -1,3 +1,16 @@
+# [2.1.0](https://github.com/adfinis/eslint-config/compare/v2.0.0...v2.1.0) (2023-12-05)
+
+
+### Bug Fixes
+
+* **deps:** update dependencies and peer dependencies ([b7cdbdf](https://github.com/adfinis/eslint-config/commit/b7cdbdfa8eafe7e03c17a5f2a598593e54d21762))
+
+
+### Features
+
+* **import:** throw error on duplicate imports ([2d1a160](https://github.com/adfinis/eslint-config/commit/2d1a1602fbb43751b97f8e0ad0be9c9c581eb793))
+* use latest ecma version for base config ([990033c](https://github.com/adfinis/eslint-config/commit/990033c3e0e7b23b1b506a9e8349f8d12d9ad97f))
+
 # [2.0.0](https://github.com/adfinis/eslint-config/compare/v1.6.1...v2.0.0) (2023-04-25)
 
 
