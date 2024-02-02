@@ -24,7 +24,7 @@ jobs:
         run: yarn update-blueprints
 
       - name: Create PR
-        uses: peter-evans/create-pull-request@v5
+        uses: peter-evans/create-pull-request@v6
         with:
           body: |-
             **Can I merge this PR without manual changes?**
