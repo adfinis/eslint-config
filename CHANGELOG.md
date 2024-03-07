@@ -1,3 +1,10 @@
+## [2.1.1](https://github.com/adfinis/eslint-config/compare/v2.1.0...v2.1.1) (2024-03-07)
+
+
+### Bug Fixes
+
+* **deps:** update dependencies and loosen peer deps ranges ([b4a7992](https://github.com/adfinis/eslint-config/commit/b4a7992b9d1f3d6f6738c2590311ef217a1da71c))
+
 # [2.1.0](https://github.com/adfinis/eslint-config/compare/v2.0.0...v2.1.0) (2023-12-05)
 
 

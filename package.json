@@ -1,6 +1,6 @@
 {
   "name": "@adfinis/eslint-config",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "description": "Adfinis' ESlint config, following our coding guidelines",
   "main": "index.js",
   "scripts": {
