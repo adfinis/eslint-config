@@ -7,7 +7,7 @@ This package contains our internally used eslint config.
 To install this package, simply run
 
 ```bash
-yarn add -D @adfinis/eslint-config \
+pnpm add -D @adfinis/eslint-config \
             eslint \
             eslint-config-prettier \
             eslint-plugin-prettier \
@@ -28,7 +28,7 @@ If you are using it in an ember app or addon you can use the config for
 ember:
 
 ```bash
-yarn add -D @adfinis/eslint-config \
+pnpm add -D @adfinis/eslint-config \
             @babel/eslint-parser \
             @babel/plugin-proposal-decorators \
             eslint \
@@ -61,7 +61,7 @@ module.exports = {
 
 Since we want to keep the config in sync with Ember.js' config, we need to
 synchronize it from time to time. This can be done very easily by running
-`yarn update-blueprints` and verifying the changes.
+`pnpm update-blueprints` and verifying the changes.
 
 There is also a [Github Action](https://github.com/adfinis/eslint-config/actions/workflows/update-blueprints.yml)
 that runs this script automatically every week at Friday 12:00 and opens a

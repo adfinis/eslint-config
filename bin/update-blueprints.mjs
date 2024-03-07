@@ -39,7 +39,7 @@ async function syncBlueprint(type) {
     () => {}
   );
 
-  await execa("yarn", ["prettier", "--write", `ember-${type}.js`]);
+  await execa("pnpm", ["prettier", "--write", `ember-${type}.js`]);
 }
 
 await syncBlueprint("app");
