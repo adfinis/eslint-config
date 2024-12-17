@@ -7,11 +7,6 @@ export default [
   prettier,
   importPlugin.flatConfigs.recommended,
   {
-    languageOptions: {
-      ecmaVersion: "latest",
-      sourceType: "script",
-    },
-
     rules: {
       "no-await-in-loop": "error",
       "array-callback-return": "error",
@@ -28,7 +23,6 @@ export default [
       "no-var": "error",
       "object-shorthand": "error",
       "prefer-const": "error",
-
       "prefer-destructuring": [
         "error",
         {
@@ -38,13 +32,11 @@ export default [
           },
         },
       ],
-
       "prefer-rest-params": "error",
       "prefer-spread": "error",
       "prefer-template": "error",
       "import/no-duplicates": "error",
       "import/no-unresolved": "off",
-
       "import/order": [
         "error",
         {
@@ -56,14 +48,12 @@ export default [
           },
         },
       ],
-
       "no-console": [
         "error",
         {
           allow: ["warn", "error"],
         },
       ],
-
       "no-debugger": "error",
     },
   },
