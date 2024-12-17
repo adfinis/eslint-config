@@ -2,7 +2,18 @@
   "name": "@adfinis/eslint-config",
   "version": "3.0.0-beta.3",
   "description": "Adfinis' ESlint config, following our coding guidelines",
-  "main": "index.js",
+  "type": "module",
+  "exports": {
+    ".": {
+      "import": "./index.mjs"
+    },
+    "./ember-addon": {
+      "import": "./ember-addon.mjs"
+    },
+    "./ember-app": {
+      "import": "./ember-app.mjs"
+    }
+  },
   "scripts": {
     "lint": "eslint .",
     "lint:fix": "eslint . --fix"
@@ -24,7 +35,6 @@
     "url": "https://github.com/adfinis/eslint-config/issues"
   },
   "homepage": "https://github.com/adfinis/eslint-config#readme",
-  "type": "module",
   "devDependencies": {
     "@adfinis/semantic-release-config": "5.0.0",
     "@babel/core": "7.26.0",

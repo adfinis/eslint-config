@@ -1,7 +1,7 @@
 import babelParser from "@babel/eslint-parser";
 import globals from "globals";
 
-import adfinisConfig from "./index.js";
+import adfinisConfig from "./index.mjs";
 
 export default [
   ...adfinisConfig,

@@ -20,7 +20,7 @@ import prettier from "eslint-plugin-prettier/recommended";
 import qunit from "eslint-plugin-qunit";
 import globals from "globals";
 
-import adfinisConfig from "./index";
+import adfinisConfig from "./index.mjs";
 
 const esmParserOptions = {
   ecmaFeatures: { modules: true },
