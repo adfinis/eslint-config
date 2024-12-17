@@ -1,3 +1,10 @@
+# [3.0.0-beta.3](https://github.com/adfinis/eslint-config/compare/v3.0.0-beta.2...v3.0.0-beta.3) (2024-12-17)
+
+
+### Bug Fixes
+
+* fix module type of config files ([79f990d](https://github.com/adfinis/eslint-config/commit/79f990da73e4775492233fa01d460ce3d6b6413a))
+
 # [3.0.0-beta.2](https://github.com/adfinis/eslint-config/compare/v3.0.0-beta.1...v3.0.0-beta.2) (2024-12-17)
 
 
