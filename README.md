@@ -6,7 +6,7 @@ This package contains our internally used eslint config.
 
 To install this package, simply run
 
-```bash
+```console
 pnpm add -D @adfinis/eslint-config \
             eslint \
             eslint-config-prettier \
@@ -17,9 +17,14 @@ pnpm add -D @adfinis/eslint-config \
 Then add the following to your `.eslintrc.js`
 
 ```js
-module.exports = {
-  extends: "@adfinis/eslint-config",
-};
+import adfinisConfig from "@adfinis/eslint-config";
+
+export default [
+  ...adfinisConfig,
+  {
+    // Custom rules for your project
+  },
+];
 ```
 
 ### Ember
@@ -27,7 +32,7 @@ module.exports = {
 If you are using it in an ember app or addon you can use the config for
 ember:
 
-```bash
+```console
 pnpm add -D @adfinis/eslint-config \
             @babel/eslint-parser \
             @babel/plugin-proposal-decorators \
@@ -44,26 +49,25 @@ pnpm add -D @adfinis/eslint-config \
 For an app replace your `.eslintrc.js` with this:
 
 ```js
-module.exports = {
-  extends: "@adfinis/eslint-config/ember-app",
-};
+import adfinisEmberAppConfig from "@adfinis/eslint-config/ember-app";
+
+export default [
+  ...adfinisEmberAppConfig,
+  {
+    // Custom rules for your project
+  },
+];
 ```
 
 Or for an addon replace your `.eslintrc.js` with this:
 
 ```js
-module.exports = {
-  extends: "@adfinis/eslint-config/ember-addon",
-};
+import adfinisEmberAddonConfig from "@adfinis/eslint-config/ember-addon";
+
+export default [
+  ...adfinisEmberAddonConfig,
+  {
+    // Custom rules for your project
+  },
+];
 ```
-
-## Maintaining
-
-Since we want to keep the config in sync with Ember.js' config, we need to
-synchronize it from time to time. This can be done very easily by running
-`pnpm update-blueprints` and verifying the changes.
-
-There is also a [Github Action](https://github.com/adfinis/eslint-config/actions/workflows/update-blueprints.yml)
-that runs this script automatically every week at Friday 12:00 and opens a
-[PR](https://github.com/adfinis/eslint-config/pulls?q=is%3Aopen+is%3Apr+label%3Aupdate-blueprints)
-if there is a change.

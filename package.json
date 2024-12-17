@@ -2,10 +2,10 @@
   "name": "@adfinis/eslint-config",
   "version": "2.1.1",
   "description": "Adfinis' ESlint config, following our coding guidelines",
-  "main": "index.js",
+  "main": "index.mjs",
   "scripts": {
     "lint": "eslint .",
-    "update-blueprints": "node bin/update-blueprints.mjs"
+    "lint:fix": "eslint . --fix"
   },
   "repository": {
     "type": "git",
@@ -24,23 +24,25 @@
     "url": "https://github.com/adfinis/eslint-config/issues"
   },
   "homepage": "https://github.com/adfinis/eslint-config#readme",
+  "type": "module",
   "devDependencies": {
-    "@adfinis/semantic-release-config": "4.1.0",
-    "@babel/core": "7.24.4",
-    "@babel/eslint-parser": "7.23.10",
-    "eslint": "8.57.0",
+    "@adfinis/semantic-release-config": "5.0.0",
+    "@babel/core": "7.26.0",
+    "@babel/eslint-parser": "7.25.9",
+    "@eslint/compat": "1.2.4",
+    "eslint": "9.17.0",
     "eslint-config-prettier": "9.1.0",
-    "eslint-plugin-import": "2.29.1",
-    "eslint-plugin-prettier": "5.1.3",
-    "execa": "8.0.1",
-    "prettier": "3.2.5",
-    "semantic-release": "23.0.2"
+    "eslint-plugin-import": "2.31.0",
+    "eslint-plugin-prettier": "5.2.1",
+    "globals": "15.13.0",
+    "prettier": "3.4.2",
+    "semantic-release": "24.2.0"
   },
   "peerDependencies": {
     "@babel/core": ">= 7",
     "@babel/eslint-parser": ">= 7",
     "@babel/plugin-proposal-decorators": ">= 7",
-    "eslint": ">= 8",
+    "eslint": ">= 9",
     "eslint-config-prettier": ">= 9",
     "eslint-plugin-ember": ">= 12",
     "eslint-plugin-import": ">= 2",
@@ -66,5 +68,5 @@
   "release": {
     "extends": "@adfinis/semantic-release-config"
   },
-  "packageManager": "pnpm@8.15.4"
+  "packageManager": "pnpm@9.15.0"
 }
