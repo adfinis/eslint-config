@@ -1,3 +1,23 @@
+# [3.0.0](https://github.com/adfinis/eslint-config/compare/v2.1.1...v3.0.0) (2024-12-17)
+
+
+### Bug Fixes
+
+* fix module exports ([8e6be9a](https://github.com/adfinis/eslint-config/commit/8e6be9ac00ff9e874a0947c0c2d833aa6111292c))
+* fix module type of config files ([79f990d](https://github.com/adfinis/eslint-config/commit/79f990da73e4775492233fa01d460ce3d6b6413a))
+* minor fixes for eslint 9 ([3e3000b](https://github.com/adfinis/eslint-config/commit/3e3000bc9128e8350ee003ace65a04d4ceedc54b))
+
+
+### Features
+
+* update eslint to v9 ([e8977a4](https://github.com/adfinis/eslint-config/commit/e8977a4b44c7e4676629b609bb18777714e97dac))
+
+
+### BREAKING CHANGES
+
+* `@adfinis/eslint-config` now required the usage of
+ESLint v9.
+
 # [3.0.0-beta.4](https://github.com/adfinis/eslint-config/compare/v3.0.0-beta.3...v3.0.0-beta.4) (2024-12-17)
 
 
