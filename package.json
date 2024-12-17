@@ -2,7 +2,7 @@
   "name": "@adfinis/eslint-config",
   "version": "3.0.0-beta.2",
   "description": "Adfinis' ESlint config, following our coding guidelines",
-  "main": "index.mjs",
+  "main": "index.js",
   "scripts": {
     "lint": "eslint .",
     "lint:fix": "eslint . --fix"

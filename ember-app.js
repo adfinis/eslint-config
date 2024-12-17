@@ -20,7 +20,7 @@ import prettier from "eslint-plugin-prettier/recommended";
 import qunit from "eslint-plugin-qunit";
 import globals from "globals";
 
-import adfinis from "./index.mjs";
+import adfinisConfig from "./index";
 
 const esmParserOptions = {
   ecmaFeatures: { modules: true },
@@ -38,7 +38,7 @@ export default [
   prettier,
   ember.configs.base,
   ember.configs.gjs,
-  ...adfinis,
+  ...adfinisConfig,
   /**
    * Ignores must be in their own object
    * https://eslint.org/docs/latest/use/configure/ignore

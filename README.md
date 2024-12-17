@@ -14,7 +14,7 @@ pnpm add -D @adfinis/eslint-config \
             eslint-plugin-import
 ```
 
-Then add the following to your `.eslintrc.js`
+Then add the following to your `eslint.config.mjs`
 
 ```js
 import adfinisConfig from "@adfinis/eslint-config";
@@ -46,7 +46,7 @@ pnpm add -D @adfinis/eslint-config \
             prettier
 ```
 
-For an app replace your `.eslintrc.js` with this:
+For an app replace your `eslint.config.mjs` with this:
 
 ```js
 import adfinisEmberAppConfig from "@adfinis/eslint-config/ember-app";
@@ -59,7 +59,7 @@ export default [
 ];
 ```
 
-Or for an addon replace your `.eslintrc.js` with this:
+Or for an addon replace your `eslint.config.mjs` with this:
 
 ```js
 import adfinisEmberAddonConfig from "@adfinis/eslint-config/ember-addon";
