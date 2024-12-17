@@ -1,3 +1,16 @@
+# [3.0.0-beta.1](https://github.com/adfinis/eslint-config/compare/v2.1.1...v3.0.0-beta.1) (2024-12-17)
+
+
+### Features
+
+* update eslint to v9 ([e8977a4](https://github.com/adfinis/eslint-config/commit/e8977a4b44c7e4676629b609bb18777714e97dac))
+
+
+### BREAKING CHANGES
+
+* `@adfinis/eslint-config` now required the usage of
+ESLint v9.
+
 ## [2.1.1](https://github.com/adfinis/eslint-config/compare/v2.1.0...v2.1.1) (2024-03-07)
 
 
