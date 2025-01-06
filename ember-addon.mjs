@@ -82,12 +82,17 @@ export default [
     files: [
       "**/*.cjs",
       "config/**/*.js",
+      "blueprints/**/*.js",
       "testem.js",
       "testem*.js",
       ".prettierrc.js",
       ".stylelintrc.js",
       ".template-lintrc.js",
       "ember-cli-build.js",
+      // Missing in ember-addon-output
+      "**/config/**/*.js",
+      "blueprints/**/*.js",
+      "index.js",
     ],
     plugins: {
       n,
