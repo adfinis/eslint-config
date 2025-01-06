@@ -1,3 +1,10 @@
+## [3.0.1](https://github.com/adfinis/eslint-config/compare/v3.0.0...v3.0.1) (2025-01-06)
+
+
+### Bug Fixes
+
+* add missing CJS files for ember addons ([96419dd](https://github.com/adfinis/eslint-config/commit/96419dd97b0d9e85e9917670220c4018d8bfd7df))
+
 # [3.0.0](https://github.com/adfinis/eslint-config/compare/v2.1.1...v3.0.0) (2024-12-17)
 
 
