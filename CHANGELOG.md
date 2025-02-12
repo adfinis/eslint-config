@@ -1,3 +1,10 @@
+## [3.0.2](https://github.com/adfinis/eslint-config/compare/v3.0.1...v3.0.2) (2025-02-12)
+
+
+### Bug Fixes
+
+* update ember eslint config ([7be9b82](https://github.com/adfinis/eslint-config/commit/7be9b82116b7c1751289dda243b9c84403b3bfb9))
+
 ## [3.0.1](https://github.com/adfinis/eslint-config/compare/v3.0.0...v3.0.1) (2025-01-06)
 
 
