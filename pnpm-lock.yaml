@@ -28,8 +28,8 @@ importers:
         specifier: 7.26.8
         version: 7.26.8
       '@babel/eslint-parser':
-        specifier: 7.26.8
-        version: 7.26.8(@babel/core@7.26.8)(eslint@9.20.1(jiti@2.4.2))
+        specifier: 7.27.0
+        version: 7.27.0(@babel/core@7.26.8)(eslint@9.20.1(jiti@2.4.2))
       '@eslint/compat':
         specifier: 1.2.6
         version: 1.2.6(eslint@9.20.1(jiti@2.4.2))
@@ -77,8 +77,8 @@ packages:
     resolution: {integrity: sha512-l+lkXCHS6tQEc5oUpK28xBOZ6+HwaH7YwoYQbLFiYb4nS2/l1tKnZEtEWkD0GuiYdvArf9qBS0XlQGXzPMsNqQ==}
     engines: {node: '>=6.9.0'}
 
-  '@babel/eslint-parser@7.26.8':
-    resolution: {integrity: sha512-3tBctaHRW6xSub26z7n8uyOTwwUsCdvIug/oxBH9n6yCO5hMj2vwDJAo7RbBMKrM7P+W2j61zLKviJQFGOYKMg==}
+  '@babel/eslint-parser@7.27.0':
+    resolution: {integrity: sha512-dtnzmSjXfgL/HDgMcmsLSzyGbEosi4DrGWoCNfuI+W4IkVJw6izpTe7LtOdwAXnkDqw5yweboYCTkM2rQizCng==}
     engines: {node: ^10.13.0 || ^12.13.0 || >=14.0.0}
     peerDependencies:
       '@babel/core': ^7.11.0
@@ -2629,7 +2629,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@babel/eslint-parser@7.26.8(@babel/core@7.26.8)(eslint@9.20.1(jiti@2.4.2))':
+  '@babel/eslint-parser@7.27.0(@babel/core@7.26.8)(eslint@9.20.1(jiti@2.4.2))':
     dependencies:
       '@babel/core': 7.26.8
       '@nicolo-ribaudo/eslint-scope-5-internals': 5.1.1-v1
@@ -3607,7 +3607,7 @@ snapshots:
   ember-eslint-parser@0.5.9(@babel/core@7.26.8)(eslint@9.20.1(jiti@2.4.2)):
     dependencies:
       '@babel/core': 7.26.8
-      '@babel/eslint-parser': 7.26.8(@babel/core@7.26.8)(eslint@9.20.1(jiti@2.4.2))
+      '@babel/eslint-parser': 7.27.0(@babel/core@7.26.8)(eslint@9.20.1(jiti@2.4.2))
       '@glimmer/syntax': 0.92.3
       content-tag: 2.0.3
       eslint-scope: 7.2.2
