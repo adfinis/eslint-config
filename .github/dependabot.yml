@@ -9,6 +9,8 @@ updates:
       timezone: "Europe/Zurich"
     open-pull-requests-limit: 10
     versioning-strategy: increase
+    cooldown:
+      default-days: 7
   - package-ecosystem: github-actions
     directory: "/"
     schedule:
@@ -16,3 +18,5 @@ updates:
       day: "friday"
       time: "12:00"
       timezone: "Europe/Zurich"
+    cooldown:
+      default-days: 7
