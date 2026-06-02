@@ -1,3 +1,10 @@
+# [3.1.0](https://github.com/adfinis/eslint-config/compare/v3.0.2...v3.1.0) (2026-06-02)
+
+
+### Features
+
+* enforce usage of camelcase variable names ([45f402e](https://github.com/adfinis/eslint-config/commit/45f402e6a46a77fc49871ccd3e320af0f37b4887))
+
 ## [3.0.2](https://github.com/adfinis/eslint-config/compare/v3.0.1...v3.0.2) (2025-02-12)
 
 

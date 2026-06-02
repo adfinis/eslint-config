@@ -1,6 +1,6 @@
 {
   "name": "@adfinis/eslint-config",
-  "version": "3.0.2",
+  "version": "3.1.0",
   "description": "Adfinis' ESlint config, following our coding guidelines",
   "type": "module",
   "exports": {
