@@ -28,8 +28,8 @@ importers:
         specifier: 7.26.8
         version: 7.26.8
       '@babel/eslint-parser':
-        specifier: 7.26.8
-        version: 7.26.8(@babel/core@7.26.8)(eslint@9.20.1(jiti@2.4.2))
+        specifier: 7.29.7
+        version: 7.29.7(@babel/core@7.26.8)(eslint@9.20.1(jiti@2.4.2))
       '@eslint/compat':
         specifier: 1.2.6
         version: 1.2.6(eslint@9.20.1(jiti@2.4.2))
@@ -77,8 +77,8 @@ packages:
     resolution: {integrity: sha512-l+lkXCHS6tQEc5oUpK28xBOZ6+HwaH7YwoYQbLFiYb4nS2/l1tKnZEtEWkD0GuiYdvArf9qBS0XlQGXzPMsNqQ==}
     engines: {node: '>=6.9.0'}
 
-  '@babel/eslint-parser@7.26.8':
-    resolution: {integrity: sha512-3tBctaHRW6xSub26z7n8uyOTwwUsCdvIug/oxBH9n6yCO5hMj2vwDJAo7RbBMKrM7P+W2j61zLKviJQFGOYKMg==}
+  '@babel/eslint-parser@7.29.7':
+    resolution: {integrity: sha512-zxt+UJTOMKvUt3yOg+D58MLuz334pHp93qifMFcjIIO+9hN6t+ufw2gi7vDPMpxvfnHRR+3VVXvIjineCcgyXw==}
     engines: {node: ^10.13.0 || ^12.13.0 || >=14.0.0}
     peerDependencies:
       '@babel/core': ^7.11.0
@@ -1261,6 +1261,7 @@ packages:
   git-raw-commits@4.0.0:
     resolution: {integrity: sha512-ICsMM1Wk8xSGMowkOmPrzo2Fgmfo4bMHLNX6ytHjajRJUqvHOw/TFapQ+QG75c3X/tTDDhOSRPGC52dDbNM8FQ==}
     engines: {node: '>=16'}
+    deprecated: This package is no longer maintained. For the JavaScript API, please use @conventional-changelog/git-client instead.
     hasBin: true
 
   glob-parent@5.1.2:
@@ -2197,6 +2198,11 @@ packages:
     engines: {node: '>=10'}
     hasBin: true
 
+  semver@7.8.1:
+    resolution: {integrity: sha512-rkVq3IXh+4FDGch+KwzX3aV9W3kO54GyEgpvBzSyctDA6Xtd7RJQV1xmXbeQp5v7+VzLOfVqiutSE6GICgPFvg==}
+    engines: {node: '>=10'}
+    hasBin: true
+
   set-function-length@1.2.2:
     resolution: {integrity: sha512-pgRc4hJ4/sNjWCSS9AmnS40x3bNMDTknHgL5UaMBTMyJnU90EgWh1Rz+MC9eFu4BuN/UwZjKQuY/1v3rM7HMfg==}
     engines: {node: '>= 0.4'}
@@ -2629,7 +2635,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@babel/eslint-parser@7.26.8(@babel/core@7.26.8)(eslint@9.20.1(jiti@2.4.2))':
+  '@babel/eslint-parser@7.29.7(@babel/core@7.26.8)(eslint@9.20.1(jiti@2.4.2))':
     dependencies:
       '@babel/core': 7.26.8
       '@nicolo-ribaudo/eslint-scope-5-internals': 5.1.1-v1
@@ -2812,7 +2818,7 @@ snapshots:
   '@commitlint/is-ignored@19.7.1':
     dependencies:
       '@commitlint/types': 19.5.0
-      semver: 7.7.1
+      semver: 7.8.1
 
   '@commitlint/lint@19.7.1':
     dependencies:
@@ -3179,7 +3185,7 @@ snapshots:
       read-pkg: 9.0.1
       registry-auth-token: 5.1.0
       semantic-release: 24.2.2(typescript@5.7.3)
-      semver: 7.7.1
+      semver: 7.8.1
       tempy: 3.1.0
 
   '@semantic-release/release-notes-generator@14.0.3(semantic-release@24.2.2(typescript@5.7.3))':
@@ -3479,7 +3485,7 @@ snapshots:
       conventional-commits-filter: 5.0.0
       handlebars: 4.7.8
       meow: 13.2.0
-      semver: 7.7.1
+      semver: 7.8.1
 
   conventional-commits-filter@5.0.0: {}
 
@@ -3607,7 +3613,7 @@ snapshots:
   ember-eslint-parser@0.5.9(@babel/core@7.26.8)(eslint@9.20.1(jiti@2.4.2)):
     dependencies:
       '@babel/core': 7.26.8
-      '@babel/eslint-parser': 7.26.8(@babel/core@7.26.8)(eslint@9.20.1(jiti@2.4.2))
+      '@babel/eslint-parser': 7.29.7(@babel/core@7.26.8)(eslint@9.20.1(jiti@2.4.2))
       '@glimmer/syntax': 0.92.3
       content-tag: 2.0.3
       eslint-scope: 7.2.2
@@ -3731,7 +3737,7 @@ snapshots:
   eslint-compat-utils@0.5.1(eslint@9.20.1(jiti@2.4.2)):
     dependencies:
       eslint: 9.20.1(jiti@2.4.2)
-      semver: 7.7.1
+      semver: 7.8.1
 
   eslint-config-prettier@10.0.1(eslint@9.20.1(jiti@2.4.2)):
     dependencies:
@@ -4590,7 +4596,7 @@ snapshots:
   normalize-package-data@6.0.2:
     dependencies:
       hosted-git-info: 7.0.2
-      semver: 7.7.1
+      semver: 7.8.1
       validate-npm-package-license: 3.0.4
 
   normalize-url@8.0.1: {}
@@ -4926,13 +4932,15 @@ snapshots:
 
   semver-diff@4.0.0:
     dependencies:
-      semver: 7.7.1
+      semver: 7.8.1
 
   semver-regex@4.0.5: {}
 
   semver@6.3.1: {}
 
   semver@7.7.1: {}
+
+  semver@7.8.1: {}
 
   set-function-length@1.2.2:
     dependencies:
