@@ -55,6 +55,14 @@ export default [
         },
       ],
       "no-debugger": "error",
+      camelcase: [
+        "error",
+        {
+          properties: "never",
+          ignoreDestructuring: true,
+          ignoreImports: true,
+        },
+      ],
     },
   },
 ];
