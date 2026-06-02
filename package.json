@@ -36,17 +36,17 @@
   },
   "homepage": "https://github.com/adfinis/eslint-config#readme",
   "devDependencies": {
-    "@adfinis/semantic-release-config": "5.0.0",
-    "@babel/core": "7.26.8",
-    "@babel/eslint-parser": "7.26.8",
-    "@eslint/compat": "1.2.6",
-    "eslint": "9.20.1",
-    "eslint-config-prettier": "10.0.1",
-    "eslint-plugin-import": "2.31.0",
-    "eslint-plugin-prettier": "5.2.3",
-    "globals": "15.14.0",
-    "prettier": "3.5.0",
-    "semantic-release": "24.2.2"
+    "@adfinis/semantic-release-config": "6.0.0",
+    "@babel/core": "7.29.7",
+    "@babel/eslint-parser": "7.29.7",
+    "@eslint/js": "9.39.4",
+    "eslint": "9.39.4",
+    "eslint-config-prettier": "10.1.8",
+    "eslint-plugin-import": "2.32.0",
+    "eslint-plugin-prettier": "5.5.6",
+    "globals": "17.6.0",
+    "prettier": "3.8.3",
+    "semantic-release": "25.0.3"
   },
   "peerDependencies": {
     "@babel/core": ">= 7",
@@ -78,5 +78,5 @@
   "release": {
     "extends": "@adfinis/semantic-release-config"
   },
-  "packageManager": "pnpm@9.15.0"
+  "packageManager": "pnpm@11.5.1"
 }
